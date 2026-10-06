@@ -81,7 +81,7 @@ ISLA 3 – "Isla del Plato Saludable" (La salud y la alimentación)
     3-6, lácteos 0-3, siempre aceite de oliva, agua del grifo cuando sea posible.
     SEMANALES → pescado 3 o más, huevos 0-4, carne 0-3, frutos secos 3 o más, legumbres 4-7.
   Juegos sugeridos: "Monta tu plato de Harvard" arrastrando alimentos a cada zona del plato con
-  feedback; "¿Es saludable?" con swipe; ordenar las raciones semanales; diseñar un menú del fin
+  feedback; "¿Es saludable?" con botones ✔ / ✖; ordenar las raciones semanales; diseñar un menú del fin
   de semana (desayuno, media mañana, comida, merienda, cena) que la app puntúa según el plato.
 
 ISLA 4 – "Isla de los Alimentos Seguros" (Alimentos seguros)
