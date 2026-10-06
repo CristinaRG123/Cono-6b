@@ -137,8 +137,6 @@ EXTRAS DEL TEMA (en el modo alumno, como "misiones especiales"):
   - STEAM Lab 1: "Planifica un menú saludable para el fin de semana" (tabla sábado/domingo con
     las 5 comidas, usando el plato de Harvard, 5 raciones de fruta y verdura de colores y
     frutas de temporada).
-  - STEAM Lab 2: "Construye tu aparato digestivo": arrastrar materiales reciclados (botella,
-    tubos, globos) para montar un modelo y etiquetar cada órgano.
   - "Comprueba tu progreso": mapa conceptual de los procesos de la nutrición para completar
     (proceso → sucede en… → consiste en…).
 
