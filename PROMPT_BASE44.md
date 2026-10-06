@@ -1,31 +1,150 @@
-# Prompt para Base44 — App interactiva de Conocimiento del Medio (6º Primaria)
+# Prompt para Base44 — "NutriAventura": Tema 1, La función de nutrición (6º Primaria)
 
 > **Cómo usarlo:** copia todo lo que hay dentro del bloque de abajo y pégalo en Base44.
-> Antes, sustituye el apartado **«CONTENIDOS DEL TEMA»** por el título y los apartados reales del tema
-> (puedes pegar el índice del libro o el resumen del tema tal cual).
+> Ya está rellenado con los contenidos del Tema 1 (La función de nutrición).
 
 ---
 
 ```
-Crea una aplicación web educativa, interactiva y muy visual llamada "Explora y Aprende – 6ºB",
-para que alumnos de 6º de Primaria (11-12 años) jueguen y aprendan los contenidos de un tema de
-Conocimiento del Medio. Debe tener dos modos: MODO ALUMNO (juego) y MODO PROFE (control y adaptaciones),
+Crea una aplicación web educativa, interactiva y muy visual llamada "NutriAventura – 6ºB",
+para que alumnos de 6º de Primaria (11-12 años) jueguen y aprendan los contenidos del Tema 1 de
+Conocimiento del Medio: "La función de nutrición". Debe tener dos modos: MODO ALUMNO (juego) y MODO PROFE (control y adaptaciones),
 con atención especial a alumnado con DISLEXIA y con TDAH / déficit de atención. Todo en español.
 
 ==================================================
-1. CONTENIDOS DEL TEMA  (sustituir por el tema real)
+1. CONTENIDOS DEL TEMA
 ==================================================
-Título del tema: [ESCRIBE AQUÍ EL TÍTULO DEL TEMA]
-Apartados:
-  1. [Apartado 1 – ideas clave]
-  2. [Apartado 2 – ideas clave]
-  3. [Apartado 3 – ideas clave]
-  4. [Apartado 4 – ideas clave]
-Vocabulario clave: [palabra – definición corta], [palabra – definición corta], ...
+Título del tema: "Tema 1 – La función de nutrición: la importancia de la nutrición"
+Pregunta motivadora: ¿Crees que cambiar nuestra forma de alimentarnos podría ayudar a cuidar
+la salud de nuestro planeta?
 
-Con estos contenidos, genera automáticamente: 1 "isla" o mundo por apartado, mini-lecciones,
-tarjetas de vocabulario y al menos 10 preguntas por apartado (de varios tipos). El profe podrá
-editarlo todo después.
+La app se llamará "NutriAventura – 6ºB". El mapa será un "viaje por el cuerpo y por la comida"
+con estas 6 islas (en este orden) más el Gran Reto final:
+
+ISLA 1 – "Isla de la Nutrición" (La función de nutrición al completo)
+  - La función de nutrición es el conjunto de procesos mediante los que obtenemos la ENERGÍA y
+    los MATERIALES necesarios para realizar nuestras actividades diarias y crecer.
+  - 4 procesos, cada uno con su aparato:
+      · DIGESTIÓN (aparato digestivo): al comer introducimos alimentos; la digestión los
+        transforma en sustancias más sencillas llamadas NUTRIENTES, que sí pueden usar las células.
+      · RESPIRACIÓN (aparato respiratorio): tomamos OXÍGENO del aire, necesario para obtener
+        energía de los nutrientes.
+      · CIRCULACIÓN (aparato circulatorio): los nutrientes y el oxígeno pasan a la sangre, que los
+        TRANSPORTA y DISTRIBUYE a todas las células del cuerpo.
+      · EXCRECIÓN (aparato urinario, sobre todo): se eliminan las SUSTANCIAS DE DESECHO.
+  - Respiración de las células: en las células los nutrientes se combinan con el oxígeno para
+    producir ENERGÍA; también se libera DIÓXIDO DE CARBONO, que pasa a la sangre y se elimina
+    por el aparato respiratorio.
+  - Pensamiento crítico: ¿necesita la misma cantidad de alimento un deportista que alguien que
+    no hace ejercicio?
+  Juegos sugeridos: rueda/ciclo de la nutrición para completar arrastrando; unir cada proceso con
+  su aparato (con siluetas del cuerpo coloreadas); esquema de la célula: arrastrar "nutrientes",
+  "oxígeno", "energía" y "dióxido de carbono" a las flechas correctas.
+
+ISLA 2 – "Isla de los Alimentos" (Necesitamos alimentos)
+  - Cada alimento tiene distintos NUTRIENTES en distintas proporciones:
+      · HIDRATOS DE CARBONO: fuente principal de energía (rápida). Patatas, fruta, legumbres,
+        cereales y derivados (pan, pasta). Los AZÚCARES son hidratos de sabor dulce.
+      · LÍPIDOS o GRASAS: más energía pero más lenta. Aceite, lácteos (mantequilla, queso),
+        frutos secos.
+      · PROTEÍNAS: materiales para crecer y reparar tejidos. Origen vegetal (legumbres,
+        semillas, frutos secos) u origen animal (pescado, carne, huevos, lácteos).
+      · VITAMINAS Y SALES MINERALES: regulan procesos del organismo. Frutas, verduras,
+        legumbres, semillas, huevos, pescado.
+      · AGUA: componente principal del cuerpo; transporta nutrientes y elimina desechos.
+  - Alimentos según su función:
+      · ENERGÉTICOS (hidratos y lípidos) · CONSTRUCTORES (proteínas) ·
+        REGULADORES (vitaminas y sales minerales).
+  - La FIBRA: en frutas, verduras, legumbres, frutos secos y alimentos INTEGRALES. El cuerpo no
+    la aprovecha, pero favorece la digestión y la expulsión de las heces, previene enfermedades
+    y ayuda a mantener un peso saludable.
+  - Las golosinas: mucho azúcar, colorantes y aromas; casi no aportan nutrientes y favorecen
+    la caries → hay que reducir su consumo.
+  Juegos sugeridos: clasificar alimentos (con fotos) en energéticos/constructores/reguladores;
+  "¿Qué nutriente predomina?" (plato de lentejas con zanahoria y arroz, etc.); memory
+  nutriente ↔ alimento; verdadero/falso sobre la fibra y las golosinas.
+
+ISLA 3 – "Isla del Plato Saludable" (La salud y la alimentación)
+  - Una alimentación variada y saludable nos ayuda a estar sanos y nos protege de enfermedades.
+    La cantidad depende de la edad, tamaño, actividad física y salud de cada persona.
+  - PLATO DE HARVARD: ½ verduras y frutas (fruta mejor entera que en zumo; las patatas no
+    cuentan) · ¼ cereales, mejor INTEGRALES (arroz, trigo, quinoa, pasta, pan) · ¼ proteínas,
+    sobre todo vegetales (legumbres, frutos secos) y de origen animal (pescado, huevos, aves),
+    limitando carnes rojas y embutidos · aceites vegetales (oliva) · AGUA como bebida principal
+    (evitar bebidas azucaradas; lácteos con moderación) · hacer EJERCICIO físico.
+  - DIETA MEDITERRÁNEA: abundancia de alimentos de origen vegetal (legumbres, cereales
+    integrales, frutos secos, verduras, frutas); ACEITE DE OLIVA; consumo moderado de pescado,
+    aves, lácteos y huevos; poca carne roja; alimentos poco procesados, frescos y DE TEMPORADA.
+    También es una forma de cocinar y de compartir la comida.
+  - DIETA = conjunto de alimentos que tomamos habitualmente.
+  - Raciones recomendadas (Ministerio de Consumo): DIARIAS → frutas y hortalizas 5, cereales
+    3-6, lácteos 0-3, siempre aceite de oliva, agua del grifo cuando sea posible.
+    SEMANALES → pescado 3 o más, huevos 0-4, carne 0-3, frutos secos 3 o más, legumbres 4-7.
+  Juegos sugeridos: "Monta tu plato de Harvard" arrastrando alimentos a cada zona del plato con
+  feedback; "¿Es saludable?" con swipe; ordenar las raciones semanales; diseñar un menú del fin
+  de semana (desayuno, media mañana, comida, merienda, cena) que la app puntúa según el plato.
+
+ISLA 4 – "Isla de los Alimentos Seguros" (Alimentos seguros)
+  - Higiene al manipular alimentos (lavarse las manos, lavar frutas y verduras, superficies
+    limpias), CONSERVACIÓN de los alimentos (frío, congelación, envasado, etc.), leer las
+    etiquetas: fecha de caducidad y de consumo preferente, nutrientes, modo de conservación
+    (ej.: leche UHT).
+  - Alimentos frescos, PROCESADOS y ULTRAPROCESADOS: por qué conviene limitar los ultraprocesados.
+  Juegos sugeridos: "Detective de etiquetas" (encontrar caducidad y consumo preferente en una
+  etiqueta); ordenar los pasos de higiene para preparar una ensalada; clasificar fresco /
+  procesado / ultraprocesado.
+  (NOTA PARA LA APP: el profe completará/ajustará esta isla con las páginas del libro.)
+
+ISLA 5 – "Isla del Viaje Digestivo" (La digestión de los alimentos)
+  - El APARATO DIGESTIVO = TUBO DIGESTIVO + GLÁNDULAS ANEJAS.
+  - Tubo digestivo (en orden): BOCA (dientes y lengua) → FARINGE (detrás de la boca) →
+    ESÓFAGO (tubo que conecta faringe y estómago) → ESTÓMAGO (forma de bolsa) →
+    INTESTINO DELGADO (tubo fino, largo y muy plegado) → INTESTINO GRUESO (más grueso,
+    termina en el ANO).
+  - Glándulas anejas: GLÁNDULAS SALIVALES (saliva), HÍGADO (la glándula más grande; forma la
+    BILIS), PÁNCREAS (jugos pancreáticos).
+  - Proceso en 3 fases:
+      1. DIGESTIÓN: en la boca se trituran y ensalivan los alimentos → BOLO ALIMENTICIO; baja por
+         el esófago; en el estómago, con los jugos gástricos → QUIMO (papilla); en el intestino
+         delgado, con jugos intestinales, bilis y jugos pancreáticos → QUILO.
+      2. ABSORCIÓN: los nutrientes pasan del intestino delgado a la SANGRE.
+      3. ELIMINACIÓN DE DESECHOS: en el intestino grueso se absorbe el agua y se forman las HECES,
+         que se expulsan por el ano.
+  Juegos sugeridos: "El viaje de la manzana": acompañar a un alimento animado por el tubo
+  digestivo eligiendo el siguiente órgano; cuerpo interactivo para tocar/etiquetar los
+  órganos; ordenar las fases; unir bolo alimenticio / quimo / quilo con dónde se forman.
+
+ISLA 6 – "Isla del Planeta Sano" (Alimentación sostenible)
+  - La forma de producir, distribuir y consumir alimentos afecta al medioambiente: emisiones
+    de gases de efecto invernadero, consumo de agua, uso de tierras, deforestación (ej.: los
+    orangutanes pierden su bosque).
+  - Los alimentos de origen animal (sobre todo la carne de vaca) consumen más agua y tierra y
+    emiten más CO2 que los vegetales (legumbres, cereales, tubérculos).
+  - Estudio: reducir la carne roja y procesada y duplicar frutas y verduras es más sano y
+    puede reducir hasta un 17 % las emisiones.
+  - Consumo responsable: alimentos de temporada y de proximidad, poco envase, no desperdiciar.
+  Juegos sugeridos: "¿Qué contamina más?" ordenando alimentos por su impacto (gráfico de barras
+  animado); crear un eslogan de consumo responsable; carrito de la compra sostenible.
+
+VOCABULARIO CLAVE (tarjetas con imagen + audio):
+alimentos, nutrientes, digestión, salud, hidratos de carbono, proteínas, dieta, grasas
+(lípidos), sostenibilidad, conservación, higiene, aparato digestivo, vitaminas, sales
+minerales, fibra, alimentos integrales, bolo alimenticio, quimo, quilo, absorción, heces,
+bilis, glándulas anejas, plato de Harvard, dieta mediterránea, alimentos de temporada,
+ultraprocesado, excreción, respiración celular, dióxido de carbono.
+
+EXTRAS DEL TEMA (en el modo alumno, como "misiones especiales"):
+  - STEAM Lab 1: "Planifica un menú saludable para el fin de semana" (tabla sábado/domingo con
+    las 5 comidas, usando el plato de Harvard, 5 raciones de fruta y verdura de colores y
+    frutas de temporada).
+  - STEAM Lab 2: "Construye tu aparato digestivo": arrastrar materiales reciclados (botella,
+    tubos, globos) para montar un modelo y etiquetar cada órgano.
+  - "Comprueba tu progreso": mapa conceptual de los procesos de la nutrición para completar
+    (proceso → sucede en… → consiste en…).
+
+Con estos contenidos, genera automáticamente: las mini-lecciones de cada isla, las tarjetas de
+vocabulario y al menos 10-15 preguntas por isla de varios tipos y 3 niveles de dificultad.
+El profe podrá editarlo todo después.
 
 ==================================================
 2. ESTILO VISUAL
@@ -33,7 +152,7 @@ editarlo todo después.
 - Estética de videojuego amable: mapa de aventura con islas/mundos (uno por apartado) que se
   desbloquean al completar el anterior. Colores vivos pero no estridentes, esquinas redondeadas,
   iconos grandes, ilustraciones y emojis en cada concepto.
-- Mascota-guía (por ejemplo, un búho explorador llamado "Cono") que da instrucciones, anima y
+- Mascota-guía (por ejemplo, un búho explorador llamado "Cono", con gorro de chef) que da instrucciones, anima y
   celebra los aciertos con animaciones cortas.
 - Botones grandes (mínimo 48px), mucho espacio en blanco, una sola tarea por pantalla.
 - Diseño responsive: debe funcionar perfectamente en tablet, ordenador y pizarra digital.
