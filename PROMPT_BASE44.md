@@ -57,11 +57,68 @@ Para cada isla/apartado:
   c) "Reto final" – mini-examen de la isla; al superarlo gana una medalla y desbloquea la siguiente.
 
 Gamificación:
-- Estrellas por acierto, medallas por isla, barra de progreso visible, colección de insignias.
 - Feedback inmediato y positivo: si falla, explicación corta + pista + segundo intento
   (nunca mensajes negativos ni sonidos de error fuertes).
 - "Repaso inteligente": las preguntas falladas vuelven a aparecer más tarde.
 - Gran reto final del tema que mezcla todas las islas, con diploma descargable/imprimible.
+
+SISTEMA DE PUNTOS, NIVELES Y MEDALLAS
+- Puntos (monedas de explorador):
+    +10 acierto a la primera · +5 acierto al segundo intento · +3 por usar la pista y acertar
+    +20 por completar una isla · +50 por superar el reto de una isla
+    +bonus de racha (3, 5 y 10 aciertos seguidos) · +bonus de constancia (jugar 3 días seguidos)
+    +puntos de MEJORA: si un alumno supera su propio resultado anterior, gana puntos extra
+    (así todos pueden destacar, no solo los más rápidos).
+- Niveles de explorador según puntos acumulados: Aprendiz → Explorador → Aventurero →
+  Experto → Leyenda, cada uno con su icono y una animación al subir de nivel.
+- Medallas: bronce / plata / oro por isla según el % de aciertos en su reto
+  (bronce ≥ 50 %, plata ≥ 75 %, oro ≥ 90 %), y medalla de diamante si se consigue oro en todas.
+- Insignias especiales coleccionables en un "álbum": "Primera isla", "Racha de 10",
+  "Sin pistas", "Maestro del vocabulario", "Nunca me rindo" (reintentar tras fallar),
+  "Gran mejora", "Ayudante del equipo", "Campeón de la clase".
+- Tienda de recompensas: con los puntos se desbloquean accesorios para el avatar (gorros, gafas,
+  mascotas), fondos y marcos. Los puntos gastados no restan del ranking.
+- Perfil del alumno con su avatar, nivel, puntos, medallas y álbum de insignias.
+
+==================================================
+3B. GRAN RETO DE LA CLASE  (reto final entre toda la clase)
+==================================================
+Competición final del tema, en directo, lanzada por el profe desde su modo y proyectada en la
+pizarra digital (estilo concurso de la tele).
+
+Funcionamiento
+- El profe pulsa "Lanzar Gran Reto" y aparece en pantalla un código o QR de sala.
+  Cada alumno se une desde su tablet/ordenador con su nombre (o se juega por EQUIPOS
+  con un dispositivo por equipo).
+- Modalidades a elegir por el profe:
+    · Individual: todos contra todos.
+    · Por equipos: el profe crea los equipos o la app los hace equilibrados automáticamente
+      (mezclando niveles y perfiles).
+    · Cooperativo: toda la clase suma puntos para llenar una "barra de la clase" y alcanzar
+      una meta común (ej.: 5.000 puntos = desbloquear un premio grupal elegido por el profe).
+- Rondas temáticas, una por isla, más una ronda final "Todo o nada" con preguntas mezcladas.
+  El profe elige nº de preguntas por ronda y puede pausar, saltar o repetir preguntas.
+- En la pizarra: pregunta grande con imagen, cuenta atrás visual, nº de alumnos que ya han
+  respondido, revelado de la respuesta correcta con una breve explicación y, tras cada pregunta,
+  el ranking animado (barras que suben).
+- Comodines por alumno/equipo (1 de cada por partida): "50 %" (quita opciones),
+  "Pista del búho" y "Doble puntos".
+- Eventos sorpresa: "Pregunta relámpago" (puntos dobles) y "Ronda de vocabulario".
+
+Puntuación justa e inclusiva
+- Puntos por acierto + un bonus pequeño por rapidez (el acierto vale mucho más que la velocidad).
+- Los alumnos con perfil Dislexia/TDAH conservan sus adaptaciones también en el Gran Reto:
+  lectura en voz alta, más tiempo (configurable, p. ej. +50 %), menos opciones y letra adaptada,
+  sin que se note para el resto de la clase. Su bonus de rapidez se calcula sobre su tiempo ampliado.
+- El profe puede ocultar los puntos individuales y mostrar solo el podio o solo los equipos.
+
+Premios y celebración
+- Podio final animado (1º, 2º, 3º) con confeti, avatares y medallas de oro, plata y bronce.
+- Premios para todos, no solo para el podio: "Mayor mejora", "Mejor racha", "Más constante",
+  "Mejor espíritu de equipo" (votado o elegido por el profe), "Rey/Reina del vocabulario".
+- Insignia "Participante del Gran Reto" para todos y trofeo "Campeón/a de la clase" para el ganador.
+- Diploma imprimible personalizado para cada alumno con sus logros.
+- "Muro de la fama" de la clase que guarda los campeones de cada tema durante el curso.
 
 ==================================================
 4. MODO PROFE (protegido con PIN de 4 cifras)
@@ -111,6 +168,13 @@ Acceso desde un icono discreto de candado; pide PIN (por defecto 1234, modificab
 - Proyectar un juego en grupo: preguntas en grande, el profe revela la respuesta y lleva
   la puntuación por equipos.
 
+4.6 Control del Gran Reto y de la gamificación
+- Crear/lanzar/pausar/terminar el Gran Reto de la Clase, elegir modalidad, equipos, rondas,
+  tiempo por pregunta, comodines y meta del modo cooperativo.
+- Ajustar el valor de los puntos, activar/desactivar ranking visible, tienda y bonus de rapidez.
+- Dar puntos o insignias manualmente (p. ej. por buen comportamiento o ayudar a un compañero).
+- Ver el historial de Gran Retos y el "Muro de la fama".
+
 ==================================================
 5. DATOS (entidades)
 ==================================================
@@ -121,7 +185,13 @@ Acceso desde un icono discreto de candado; pide PIN (por defecto 1234, modificab
   imagen, dificultad.
 - Vocabulary: section, palabra, definición, imagen.
 - Attempt: student, question, correcta, intento, fecha, tiempo.
-- TeacherSettings: pin, ajustes de clase por defecto.
+- TeacherSettings: pin, ajustes de clase por defecto, valores de puntos, opciones de ranking.
+- Badge: nombre, descripción, icono, condición. StudentBadge: student, badge, fecha.
+- Reward (tienda): nombre, tipo (accesorio/fondo/marco), precio, imagen. StudentReward.
+- Team: nombre, color, mascota, miembros.
+- ClassChallenge: código_sala, modalidad, estado, rondas, ajustes, fecha, ganador.
+- ChallengeAnswer: challenge, student/team, question, correcta, tiempo, puntos, comodín_usado.
+- HallOfFame: tema, campeón, equipo_ganador, fecha.
 
 ==================================================
 6. REQUISITOS FINALES
@@ -139,7 +209,8 @@ Acceso desde un icono discreto de candado; pide PIN (por defecto 1234, modificab
 
 Una vez generada la app, puedes pedirle mejoras con mensajes cortos, por ejemplo:
 
-- «Añade un juego tipo "¿Quién quiere ser millonario?" para el reto final.»
+- «En el Gran Reto, añade una ronda tipo "¿Quién quiere ser millonario?".»
+- «Que el podio final del Gran Reto tenga música de celebración y fuegos artificiales.»
 - «En el perfil Dislexia, que la lectura en voz alta se active sola al cargar cada pregunta.»
 - «Añade una pantalla de bienvenida con la mascota explicando cómo se juega.»
 - «Haz que el panel del profe muestre una gráfica de progreso semanal de la clase.»
