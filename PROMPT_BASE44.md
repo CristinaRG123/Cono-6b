@@ -147,6 +147,36 @@ vocabulario y al menos 10-15 preguntas por isla de varios tipos y 3 niveles de d
 El profe podrá editarlo todo después.
 
 ==================================================
+1B. ACCESO Y USO: UN SOLO DISPOSITIVO (MUY IMPORTANTE)
+==================================================
+La app la abre SOLO LA SEÑO, desde su ordenador o su móvil, y se juega en la PIZARRA DIGITAL.
+Los alumnos NO tienen dispositivos, NO tienen cuentas y NO hacen ningún registro.
+
+- Registro: solo la seño, una única vez (cuenta de Base44 con email o Google). Los datos de la
+  clase quedan guardados en su cuenta, así lo encuentra igual en el ordenador del aula y en
+  su móvil.
+- Al abrir la app: pantalla de inicio con 3 botones enormes:
+    [▶ JUGAR]  ·  [🏆 GRAN RETO DE LA CLASE]  ·  [🔒 MODO PROFE]
+  Sin menús complicados ni pasos intermedios.
+- Los alumnos NO inician sesión. Cuando juegan, la seño (o el propio alumno, tocando la pizarra)
+  elige quién juega tocando su cara/avatar en una cuadrícula grande con todos los nombres de la
+  clase. Así sus puntos y su perfil de adaptación se aplican al momento.
+- Formas de jugar en la pizarra (la seño elige al pulsar JUGAR):
+    · "Por turnos": la app elige al azar (ruleta de nombres animada) quién sale a la pizarra;
+      ese alumno responde tocando la pantalla y los puntos van a él/ella.
+    · "Por equipos": 4-6 equipos de colores; el equipo decide la respuesta y su portavoz la toca
+      en la pizarra (o la seño la marca).
+    · "Toda la clase": se proyecta la pregunta, la clase responde en voz alta o con tarjetas
+      de colores A/B/C/D y la seño toca la respuesta; los puntos van a la barra de la clase.
+- Optimizada para pizarra digital: todo se ve desde el fondo del aula (letra muy grande,
+  botones gigantes y separados), funciona con el dedo o el lápiz de la pizarra, sin gestos
+  difíciles (nada de deslizar ni doble clic: solo tocar y arrastrar), botón de pantalla completa.
+- El móvil de la seño como "mando" (opcional): si abre la app en el móvil a la vez que en la
+  pizarra, desde el móvil puede pasar de pregunta, revelar la respuesta, dar puntos a un equipo
+  o pausar, sin moverse de su sitio. Si no lo usa, todo se controla también desde la pizarra.
+- Sin códigos de sala, sin QR y sin contraseñas para los niños.
+
+==================================================
 2. ESTILO VISUAL
 ==================================================
 - Estética de videojuego amable: mapa de aventura con islas/mundos (uno por apartado) que se
@@ -155,18 +185,20 @@ El profe podrá editarlo todo después.
 - Mascota-guía (por ejemplo, un búho explorador llamado "Cono", con gorro de chef) que da instrucciones, anima y
   celebra los aciertos con animaciones cortas.
 - Botones grandes (mínimo 48px), mucho espacio en blanco, una sola tarea por pantalla.
-- Diseño responsive: debe funcionar perfectamente en tablet, ordenador y pizarra digital.
+- Pensada en primer lugar para PIZARRA DIGITAL (pantalla grande y horizontal); también usable
+  en el ordenador y en el móvil de la seño.
 
 ==================================================
 3. MODO ALUMNO (jugar y aprender)
 ==================================================
-Entrada: el alumno elige su nombre de una lista (creada por el profe) y su avatar. Sin contraseñas.
+Entrada: sin registro ni contraseña. En la pizarra se toca el avatar del alumno (o equipo) que
+juega, o se usa la ruleta de nombres (ver apartado 1B).
 
 Para cada isla/apartado:
   a) "Aprende" – mini-lección en 3-5 tarjetas visuales (imagen + frase corta + botón de audio).
   b) "Juega" – juegos variados sobre ese apartado:
      - Test de opción múltiple con imágenes.
-     - Verdadero o falso con deslizamiento (tipo swipe).
+     - Verdadero o falso con dos botones gigantes (✔ / ✖).
      - Arrastrar y soltar: clasificar conceptos en categorías.
      - Unir parejas (concepto ↔ definición o imagen).
      - Ordenar secuencias/procesos (línea del tiempo, pasos, ciclos).
@@ -185,7 +217,7 @@ SISTEMA DE PUNTOS, NIVELES Y MEDALLAS
 - Puntos (monedas de explorador):
     +10 acierto a la primera · +5 acierto al segundo intento · +3 por usar la pista y acertar
     +20 por completar una isla · +50 por superar el reto de una isla
-    +bonus de racha (3, 5 y 10 aciertos seguidos) · +bonus de constancia (jugar 3 días seguidos)
+    +bonus de racha (3, 5 y 10 aciertos seguidos) · +bonus de constancia (participar en 3 sesiones seguidas)
     +puntos de MEJORA: si un alumno supera su propio resultado anterior, gana puntos extra
     (así todos pueden destacar, no solo los más rápidos).
 - Niveles de explorador según puntos acumulados: Aprendiz → Explorador → Aventurero →
@@ -206,9 +238,11 @@ Competición final del tema, en directo, lanzada por el profe desde su modo y pr
 pizarra digital (estilo concurso de la tele).
 
 Funcionamiento
-- El profe pulsa "Lanzar Gran Reto" y aparece en pantalla un código o QR de sala.
-  Cada alumno se une desde su tablet/ordenador con su nombre (o se juega por EQUIPOS
-  con un dispositivo por equipo).
+- La seño pulsa "Gran Reto de la Clase" en la pantalla de inicio. No hace falta que nadie se
+  conecte: todo ocurre en la pizarra digital, con un solo dispositivo.
+- Los alumnos responden por turnos saliendo a la pizarra, por equipos (el portavoz toca la
+  respuesta) o todos a la vez con tarjetas de colores A/B/C/D, y la seño marca en la pantalla
+  quién ha acertado (botones grandes con el nombre/color de cada equipo).
 - Modalidades a elegir por el profe:
     · Individual: todos contra todos.
     · Por equipos: el profe crea los equipos o la app los hace equilibrados automáticamente
@@ -217,18 +251,19 @@ Funcionamiento
       una meta común (ej.: 5.000 puntos = desbloquear un premio grupal elegido por el profe).
 - Rondas temáticas, una por isla, más una ronda final "Todo o nada" con preguntas mezcladas.
   El profe elige nº de preguntas por ronda y puede pausar, saltar o repetir preguntas.
-- En la pizarra: pregunta grande con imagen, cuenta atrás visual, nº de alumnos que ya han
-  respondido, revelado de la respuesta correcta con una breve explicación y, tras cada pregunta,
+- En la pizarra: pregunta grande con imagen, lectura en voz alta automática, cuenta atrás
+  visual opcional, revelado de la respuesta correcta con una breve explicación y, tras cada pregunta,
   el ranking animado (barras que suben).
 - Comodines por alumno/equipo (1 de cada por partida): "50 %" (quita opciones),
   "Pista del búho" y "Doble puntos".
 - Eventos sorpresa: "Pregunta relámpago" (puntos dobles) y "Ronda de vocabulario".
 
 Puntuación justa e inclusiva
-- Puntos por acierto + un bonus pequeño por rapidez (el acierto vale mucho más que la velocidad).
+- Puntos por acierto (sin premiar la rapidez, para no dejar atrás a nadie). Rebote: si un equipo
+  falla, otro puede responder por la mitad de puntos.
 - Los alumnos con perfil Dislexia/TDAH conservan sus adaptaciones también en el Gran Reto:
-  lectura en voz alta, más tiempo (configurable, p. ej. +50 %), menos opciones y letra adaptada,
-  sin que se note para el resto de la clase. Su bonus de rapidez se calcula sobre su tiempo ampliado.
+  cuando le toca su turno, la app aplica automáticamente su perfil (lectura en voz alta, más
+  tiempo, menos opciones y letra adaptada) de forma natural, sin señalarlo.
 - El profe puede ocultar los puntos individuales y mostrar solo el podio o solo los equipos.
 
 Premios y celebración
@@ -242,7 +277,9 @@ Premios y celebración
 ==================================================
 4. MODO PROFE (protegido con PIN de 4 cifras)
 ==================================================
-Acceso desde un icono discreto de candado; pide PIN (por defecto 1234, modificable).
+Acceso desde el botón 🔒 MODO PROFE; pide un PIN de 4 cifras (por defecto 1234, modificable) para
+que los niños no entren desde la pizarra. Ya está dentro de la cuenta de la seño, así que no
+hay que volver a iniciar sesión.
 
 4.1 Gestión de alumnos
 - Crear/editar/eliminar alumnos (nombre + avatar). Importar lista pegando nombres.
@@ -284,13 +321,13 @@ Acceso desde un icono discreto de candado; pide PIN (por defecto 1234, modificab
 - Exportar resultados (CSV o imprimir) y reiniciar progreso de un alumno o de la clase.
 
 4.5 Modo clase / pizarra digital
-- Proyectar un juego en grupo: preguntas en grande, el profe revela la respuesta y lleva
-  la puntuación por equipos.
+- Configurar cómo se juega en la pizarra: por turnos, por equipos o toda la clase; ruleta de
+  nombres activada o no; dar puntos manualmente a un alumno o equipo con un toque.
 
 4.6 Control del Gran Reto y de la gamificación
 - Crear/lanzar/pausar/terminar el Gran Reto de la Clase, elegir modalidad, equipos, rondas,
   tiempo por pregunta, comodines y meta del modo cooperativo.
-- Ajustar el valor de los puntos, activar/desactivar ranking visible, tienda y bonus de rapidez.
+- Ajustar el valor de los puntos, activar/desactivar ranking visible y tienda.
 - Dar puntos o insignias manualmente (p. ej. por buen comportamiento o ayudar a un compañero).
 - Ver el historial de Gran Retos y el "Muro de la fama".
 
@@ -308,7 +345,7 @@ Acceso desde un icono discreto de candado; pide PIN (por defecto 1234, modificab
 - Badge: nombre, descripción, icono, condición. StudentBadge: student, badge, fecha.
 - Reward (tienda): nombre, tipo (accesorio/fondo/marco), precio, imagen. StudentReward.
 - Team: nombre, color, mascota, miembros.
-- ClassChallenge: código_sala, modalidad, estado, rondas, ajustes, fecha, ganador.
+- ClassChallenge: modalidad, estado, rondas, ajustes, fecha, ganador.
 - ChallengeAnswer: challenge, student/team, question, correcta, tiempo, puntos, comodín_usado.
 - HallOfFame: tema, campeón, equipo_ganador, fecha.
 
