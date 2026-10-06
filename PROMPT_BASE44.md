@@ -182,6 +182,15 @@ Los alumnos NO tienen dispositivos, NO tienen cuentas y NO hacen ningún registr
 ==================================================
 2. ESTILO VISUAL
 ==================================================
+- Nombre de la clase: "La clase de la seño Isa". Aparece en la pantalla de inicio
+  ("NutriAventura · La clase de la seño Isa"), en el podio, en los diplomas y en el Muro de la fama.
+- Logo INCLUSIA ("IA por y para ti", colores azul marino → turquesa): en la pantalla de inicio,
+  en la cabecera del modo profe y en los diplomas (pequeño, en una esquina). Usar sus colores
+  (azul #1E3A8A, índigo #2E1A7A, turquesa #00D4E0) como colores principales de la interfaz.
+- Ilustraciones pensadas para niños de 11-12 años: estilo cartoon/flat moderno y juvenil (tipo
+  videojuego o cómic actual), con personajes de su edad. NI realista de adulto (nada de fotos
+  médicas o de stock) NI infantil (nada de dibujos de bebés o de Infantil). El cuerpo humano y
+  los órganos en ilustración esquemática y amable.
 - Estética de videojuego amable: mapa de aventura con islas/mundos (uno por apartado) que se
   desbloquean al completar el anterior. Colores vivos pero no estridentes, esquinas redondeadas,
   iconos grandes, ilustraciones y emojis en cada concepto.
