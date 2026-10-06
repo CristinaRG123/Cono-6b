@@ -332,6 +332,25 @@ hay que volver a iniciar sesión.
 - Ver el historial de Gran Retos y el "Muro de la fama".
 
 ==================================================
+4B. INSTRUCCIONES Y AYUDA DENTRO DE LA APP (para la seño y para los niños)
+==================================================
+La seño no tiene que explicar nada: la app se explica sola.
+- Primera vez que se abre: tutorial guiado para la seño (5-6 pasos con flechas y bocadillos de
+  la mascota): cambiar el PIN, añadir alumnos pegando la lista, asignar perfiles, elegir modo de
+  juego, lanzar el Gran Reto. Con botones "Siguiente" / "Saltar" y se puede repetir desde Ayuda.
+- Botón "❓ Ayuda" siempre visible en cada pantalla: explica en 2-3 frases cortas qué se hace
+  ahí, con icono y opción de escucharlo en voz alta.
+- Antes de cada juego, la mascota Cono explica en voz alta y con una mini-demostración animada
+  cómo se juega ("Arrastra cada alimento a su grupo"), con un ejemplo resuelto. Botón
+  "Volver a explicar".
+- Pantalla "Cómo se juega" accesible desde inicio con las reglas de puntos, medallas, comodines
+  y Gran Reto explicadas con dibujos, pensada para proyectarla a la clase el primer día.
+- En el modo profe, cada ajuste lleva un "ⓘ" con una explicación sencilla de para qué sirve
+  (sobre todo los de dislexia y TDAH) y una recomendación por defecto.
+- "Guía rápida de la seño" imprimible (1 página) dentro del modo profe, con los pasos básicos.
+- Mensajes siempre en lenguaje sencillo; nunca términos técnicos.
+
+==================================================
 5. DATOS (entidades)
 ==================================================
 - Student: nombre, avatar, perfil_adaptacion, ajustes (JSON), nivel, estrellas, medallas.
