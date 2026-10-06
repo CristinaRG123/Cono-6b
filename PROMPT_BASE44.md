@@ -173,6 +173,11 @@ Los alumnos NO tienen dispositivos, NO tienen cuentas y NO hacen ningún registr
   pizarra, desde el móvil puede pasar de pregunta, revelar la respuesta, dar puntos a un equipo
   o pausar, sin moverse de su sitio. Si no lo usa, todo se controla también desde la pizarra.
 - Sin códigos de sala, sin QR y sin contraseñas para los niños.
+- ALUMNOS POR NÚMERO DE LISTA: la clase tiene 25 alumnos. Deja precargados los 25 alumnos como
+  "Nº 1" a "Nº 25" (sin nombres, para proteger su privacidad), cada uno con un avatar y color
+  distinto. En la cuadrícula, la ruleta, los rankings, el podio y los diplomas se muestra el
+  NÚMERO bien grande junto al avatar. La seño puede, si quiere, añadir un nombre o apodo a cada
+  número, y cambiar el total de alumnos.
 
 ==================================================
 2. ESTILO VISUAL
@@ -280,7 +285,8 @@ que los niños no entren desde la pizarra. Ya está dentro de la cuenta de la se
 hay que volver a iniciar sesión.
 
 4.1 Gestión de alumnos
-- Crear/editar/eliminar alumnos (nombre + avatar). Importar lista pegando nombres.
+- Los 25 alumnos vienen creados como Nº 1 … Nº 25. Se puede cambiar el avatar, añadir un
+  nombre/apodo opcional, y añadir o quitar números si cambia la clase.
 - A cada alumno se le asigna un PERFIL DE ADAPTACIÓN: "Estándar", "Dislexia", "TDAH",
   "Dislexia + TDAH" o "Personalizado". Al entrar el alumno, la app aplica su perfil automáticamente.
 
@@ -351,7 +357,7 @@ La seño no tiene que explicar nada: la app se explica sola.
 ==================================================
 5. DATOS (entidades)
 ==================================================
-- Student: nombre, avatar, perfil_adaptacion, ajustes (JSON), nivel, estrellas, medallas.
+- Student: numero_lista, nombre (opcional), avatar, perfil_adaptacion, ajustes (JSON), nivel, estrellas, medallas.
 - Topic: título, descripción.
 - Section (isla): topic, orden, título, icono, color, mini_lecciones (lista), activa.
 - Question: section, tipo, enunciado, opciones, respuesta_correcta, explicación, pista,

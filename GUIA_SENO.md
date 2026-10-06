@@ -9,8 +9,8 @@ Guía para usar la app en clase sin complicaciones. Todo se hace desde **tu orde
 1. **Abre la app** con el enlace que te paso y entra con tu cuenta (email o Google).
 2. Pulsa **🔒 MODO PROFE** y escribe el PIN **1234**.
 3. **Cambia el PIN** por uno tuyo (en *Ajustes*), para que los niños no puedan entrar.
-4. **Añade a tus alumnos**: en *Alumnos* → *Importar lista*, pega los nombres (uno por línea).
-5. **Asigna un perfil** a quien lo necesite: *Dislexia*, *TDAH* o *Dislexia + TDAH*. Los demás se quedan en *Estándar*.
+4. **Tus alumnos ya están creados** como **Nº 1** a **Nº 25** (el número de lista de cada uno). No hace falta escribir nombres; si quieres, en *Alumnos* puedes añadir un apodo o cambiar el avatar.
+5. **Asigna un perfil** (por número de lista) a quien lo necesite: *Dislexia*, *TDAH* o *Dislexia + TDAH*. Los demás se quedan en *Estándar*.
    - A partir de ahí, la app aplica sus adaptaciones sola cada vez que les toca jugar.
 6. (Opcional) **Crea los equipos** en *Equipos*, o deja que la app los haga equilibrados.
 
